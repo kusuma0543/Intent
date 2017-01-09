@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_intent_me"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:padding="10dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.k3ench.intent.IntentMe"
+    tools:showIn="@layout/app_bar_intent_me"
+    android:background="#808080">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="50dp"
+android:hint="Enter your name"
+        android:id="@+id/editText"
+android:background="@drawable/kusumanew"
+        android:layout_marginTop="41dp"
+android:paddingLeft="5dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Click me"
+
+        android:id="@+id/button"
+        android:background="@drawable/buttonnew"
+        android:layout_below="@+id/editText"
+
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"
+
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+
+</RelativeLayout>
