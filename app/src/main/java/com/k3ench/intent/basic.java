@@ -23,7 +23,7 @@ public class basic extends AppCompatActivity {
         Intent intent = getIntent();
 
         String ma = intent.getStringExtra("mkk");
-        t.setText("Hi  "+ma+"!!!");
+        t.setText("Hi  "+ma+"!!");
        // setTitle(ma);
        // t.setText(ma);
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
